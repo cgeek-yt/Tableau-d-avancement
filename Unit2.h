@@ -34,14 +34,13 @@ __published:	// IDE-managed Components
    TLabel *Label30;
    TLabel *Label31;
    TStatusBar *StatusBar1;
-   TEdit *Edit5;
-   TEdit *Edit6;
    TMainMenu *MainMenu1;
    TMenuItem *Fichier1;
    TMenuItem *Tableau1;
    TMenuItem *Rinitialiser1;
    TMenuItem *Quitter1;
    TLabel *Label2;
+   void __fastcall Quitter1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
    __fastcall TForm2(TComponent* Owner);

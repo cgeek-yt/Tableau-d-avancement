@@ -183,25 +183,9 @@ object Form2: TForm2
       end>
     SimplePanel = False
   end
-  object Edit5: TEdit
-    Left = 152
-    Top = 56
-    Width = 169
-    Height = 21
-    TabOrder = 1
-    Text = 'Edit5'
-  end
-  object Edit6: TEdit
-    Left = 344
-    Top = 56
-    Width = 169
-    Height = 21
-    TabOrder = 2
-    Text = 'Edit6'
-  end
   object MainMenu1: TMainMenu
-    Left = 496
-    Top = 160
+    Left = 512
+    Top = 192
     object Fichier1: TMenuItem
       Caption = 'Fichier'
       object Tableau1: TMenuItem
@@ -214,6 +198,7 @@ object Form2: TForm2
       end
       object Quitter1: TMenuItem
         Caption = 'Quitter'
+        OnClick = Quitter1Click
       end
     end
   end

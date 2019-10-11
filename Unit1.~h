@@ -75,6 +75,8 @@ public:		// User declarations
    int etat;
    int eia;
    int eib;
+   int eic;
+   int eid;
    int einta;
    int eintb;
    int eintc;

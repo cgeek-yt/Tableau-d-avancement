@@ -15,6 +15,7 @@ __fastcall TForm2::TForm2(TComponent* Owner)
 {
    //int i;
    //i=Form1->toto;
+
    int etat;
    etat=Form1->etat;
 
@@ -25,12 +26,12 @@ __fastcall TForm2::TForm2(TComponent* Owner)
    eib=Form1->eib;
 
    int eic;
-   eic="0";
+   eic=Form1->eic;
 
    int eid;
-   eid="0";
+   eid=Form1->eid;
 
-   ìnt einta;
+   int einta;
    einta=Form1->einta;
 
    int eintb;
@@ -56,5 +57,21 @@ __fastcall TForm2::TForm2(TComponent* Owner)
 
    int rl;
    rl=Form1->rl;
+
+
+
+   //Mise a jour des champs de texte
+
+   Label21->Caption=eia;
+
+
 }
 //---------------------------------------------------------------------------
+
+
+void __fastcall TForm2::Quitter1Click(TObject *Sender)
+{
+   exit(EXIT_SUCCESS);
+}
+//---------------------------------------------------------------------------
+
